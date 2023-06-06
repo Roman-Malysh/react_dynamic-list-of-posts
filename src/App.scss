@@ -18,6 +18,29 @@
   }
 }
 
+.root {
+  height: 100%;
+}
+
+.section {
+  min-height: 100vh;
+  max-height: max-content;
+}
+
+.section {
+  background-color: #5b566f;
+  transition: 300ms;
+}
+
+.darkModeIsOn {
+  background-color: #fffcfc;
+  transition: 300ms;
+}
+
 .message-body {
   white-space: pre-line;
+}
+
+iframe {
+  pointer-events: none;
 }
